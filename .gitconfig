@@ -1,0 +1,27 @@
+[user]
+	name = bni
+	email = bni@jsway.se
+
+[alias]
+	l = log --pretty=oneline -n 20 --graph
+	s = status -s
+	d = difftool
+	a = add
+	ca = commit -a
+
+[color]
+	ui = auto
+
+[color "status"]
+	added = yellow
+	changed = green
+	untracked = cyan
+
+[difftool "Kaleidoscope"]
+	cmd = ksdiff-wrapper git \"$LOCAL\" \"$REMOTE\"
+
+[difftool]
+	prompt = false
+
+[diff]
+	tool = Kaleidoscope
