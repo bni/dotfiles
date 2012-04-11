@@ -8,6 +8,12 @@
 	d = difftool
 	a = add
 	ca = commit -a
+	cob = checkout -b
+	co = checkout
+	b = branch
+	bd = branch -d
+	r = rebase
+	m = merge
 
 [color]
 	ui = auto
