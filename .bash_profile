@@ -1,4 +1,4 @@
-export PATH=$PATH:$HOME/Documents/node/bin
+export PATH=$PATH:$HOME/Documents/bin
 
 export EDITOR="mate -wl1"
 
@@ -29,3 +29,5 @@ alias ...="cd ../.."
 alias g="git"
 alias m="mate ."
 alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
+
+alias fixopenwith='/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user'
