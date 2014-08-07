@@ -1,6 +1,6 @@
 [user]
 	name = bni
-	email = bni@jsway.se
+	email = bnilsson@me.com
 
 [alias]
 	l = log --pretty=oneline -n 20 --graph

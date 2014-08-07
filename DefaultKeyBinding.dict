@@ -1,0 +1,27 @@
+//
+// ~/Library/KeyBindings/DefaultKeyBinding.dict
+//
+// ^ : Ctrl
+// $ : Shift
+// ~ : Alt
+
+{
+	"\UF729" = "moveToBeginningOfLine:";
+	"\UF72b" = "moveToEndOfLine:";
+
+	"^\UF729" = "moveToBeginningOfDocument:";
+	"^\UF72B" = "moveToEndOfDocument:";
+
+	"$\UF729" = "moveToBeginningOfLineAndModifySelection:";
+	"$\UF72B" = "moveToEndOfLineAndModifySelection:";
+
+	"\UF72C" = "pageUp:";
+	"\UF72D" = "pageDown:";
+
+	"~<" = ("insertText:", "|");
+	"~7" = ("insertText:", "{");
+	"~0" = ("insertText:", "}");
+	"~8" = ("insertText:", "[");
+	"~9" = ("insertText:", "]");
+	"~+" = ("insertText:", "\U005C");
+}
