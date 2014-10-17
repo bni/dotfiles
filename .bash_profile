@@ -1,5 +1,3 @@
-export PATH=$PATH:$HOME/Documents/bin
-
 export EDITOR="mate -wl1"
 
 export CLICOLOR=1
@@ -26,6 +24,7 @@ PS1="${EMR}\u@local${EMW}:${EMB}\w${EMW}\$([[ -n \$(git branch 2> /dev/null) ]] 
 
 alias ..="cd .."
 alias ...="cd ../.."
+alias ll="ls -alh"
 alias g="git"
 alias m="mate ."
 alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
