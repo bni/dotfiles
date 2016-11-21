@@ -1,5 +1,3 @@
-export PATH=$PATH:~/Documents/bin
-
 export EDITOR="mate -wl1"
 
 export CLICOLOR=1
