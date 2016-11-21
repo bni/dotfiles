@@ -1,3 +1,5 @@
+export PATH=$PATH:~/Documents/bin
+
 export EDITOR="mate -wl1"
 
 export CLICOLOR=1
@@ -13,7 +15,7 @@ EMC='\[\033[1;36m\]' # cyan
 EMW='\[\033[1;37m\]' # white
 
 function parse_git_dirty() {
-	[[ $(git status 2> /dev/null | tail -n1) != "nothing to commit, working directory clean" ]] && echo "*"
+	[[ $(git status 2> /dev/null | tail -n1) != "nothing to commit, working tree clean" ]] && echo "*"
 }
 
 function parse_git_branch() {
@@ -28,5 +30,5 @@ alias ll="ls -alh"
 alias g="git"
 alias m="mate ."
 alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
-
 alias fixopenwith='/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user'
+alias serverless="./node_modules/.bin/serverless"
