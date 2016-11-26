@@ -29,4 +29,5 @@ alias g="git"
 alias m="mate ."
 alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
 alias fixopenwith='/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user'
+alias largest="du -hsx * | sort -rh | head -30"
 alias serverless="./node_modules/.bin/serverless"
